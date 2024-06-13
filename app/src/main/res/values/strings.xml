@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Practice App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="required"></string>
+    <string name="name">Name</string>
+    <string name="home">Home</string>
+    <string name="sd_card">SD Card</string>
+
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+</resources>

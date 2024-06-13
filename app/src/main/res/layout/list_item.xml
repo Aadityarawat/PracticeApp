@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginStart="1dp"
+    android:backgroundTint="@color/white"
+    android:layout_marginEnd="1dp"
+    app:cardElevation="4dp"
+    android:layout_marginBottom="15dp"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageIV"
+        android:layout_width="93dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/i1"
+        app:shapeAppearanceOverlay="@style/rounded_img"
+        android:layout_margin="12dp"/>
+
+    <TextView
+        android:id="@+id/roleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medical Doctor"
+        android:textSize="15dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginStart="117dp"
+        android:textColor="@color/blackgrey"
+        android:fontFamily="@font/comfortaabold"/>
+
+    <TextView
+        android:id="@+id/phoneTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="93737378382"
+        android:textSize="10dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginStart="117dp"
+        android:textColor="#7E8594"
+        android:fontFamily="@font/comfortaabold"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/genderCV"
+        android:layout_width="36dp"
+        android:layout_height="18dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="end"
+        >
+        <TextView
+            android:id="@+id/genderTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="male"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textSize="8dp"
+            android:fontFamily="@font/comfortaabold"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/statusCV"
+        android:layout_width="91dp"
+        android:layout_height="24dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginStart="116dp"
+        >
+        <TextView
+            android:id="@+id/statusTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accepted"
+            android:textColor="#219653"
+            android:layout_gravity="center"
+            android:textSize="10dp"
+            android:fontFamily="@font/comfortaabold"/>
+    </androidx.cardview.widget.CardView>
+
+</androidx.cardview.widget.CardView>
